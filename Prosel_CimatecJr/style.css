@@ -1,0 +1,328 @@
+/* Cor de fundo da página*/
+html {
+
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+body{
+    background-color: #fecc16 ;
+}
+
+/* Gerais */
+
+    body { 
+            font-family: 'Roboto', sans-serif;
+            overflow-x: hidden;
+    }
+
+    .row{ 
+        margin: 0;
+    }
+
+    .container{ 
+        padding: 70px 0;
+    }
+
+    .p, li{ 
+        color: gray; 
+        font-size: 14px;
+    }
+
+
+    /* Barra de navegação */
+
+    header, .navbar { 
+        background-color: #b32727;
+    }
+
+    #nav-container {
+        padding-top: 0; 
+        padding-bottom: 0;
+    }
+
+    #logo{
+        width: 140px;
+    }
+
+    .navbar-brand{
+        padding: 0; 
+        color:#ffff ;
+    }
+
+    .navbar-brand:hover {
+        color: #ffff;
+    }
+
+    #navbar-links a{
+        color: #ffff;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{ 
+
+        padding : 1rem , 8rem; 
+    }
+
+    /* Slider */
+
+    .container-fluid { 
+        padding: 0; 
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{ 
+        /* margin-top: 8%; */
+        height: 90vh; 
+        
+    }
+
+    #mainSlider .carousel-caption{
+        bottom: 5%;
+    }
+
+     .main-btn{
+    background-color: #fecc16 ;
+    color: #ffff; 
+    text-transform: uppercase;
+    top: 25%;
+    width: 200px; 
+    height: 60px; 
+    padding: 10px 20px; 
+    border-radius: 30px;
+    border: 3px solid transparent; 
+    transition: .5s;
+    } 
+
+    .main-btn:hover{ 
+        text-decoration: none;
+        color: #ffff;
+        background-color: transparent; 
+        border-color: #fecc16;
+    } 
+
+    .carousel-indicators .active{
+        
+        background-color: #fecc16 ;
+    }
+
+
+
+    /* Sobre ochef */
+    
+    .main-title{
+        color:black;
+        margin: 0 0 65px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .main-title::after{
+       content: "";
+       border-top: 2px solid #333;
+       width: 15%;
+       position: absolute;
+       top: 60px;
+       left: 42.5%; 
+    }
+
+    .about-title{
+        color: black;
+        font-size: 17px; 
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+
+    .container2{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .child{
+        width: 30%;
+        height: 400px;
+        background-color: #b32727;    
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .img-fluid{
+        border-radius: 10px;
+    }
+
+    .container-about, h2{
+        color: white;
+    }
+
+    
+
+    /* Serviços */
+
+    .service-box{
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 60px;
+        margin-bottom: 60px;
+    }
+
+    .service-box i, .service-box h3{
+        transition: .5s;
+    }
+
+    .service-box h3{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    /* Depoimentos */
+
+    .container-about{
+        border-radius: 10px;
+        background-color: #b32727 ;
+        width: 75%;
+        height: 60%;
+    }
+
+    .container-about, h2{
+        text-align: center;
+    }
+
+    .container2, h4{
+        text-align: center;
+        color: white;
+        
+    }
+    
+    /* Rodapé */
+
+    footer{
+        background-color: #b32727;
+        padding-top: 5em;
+        padding-bottom: 40px;
+        border-top: 5px solid black;
+        width: 100%;
+    }
+
+    footer h3, footer a, footer span{
+        color: #D1D1D1;
+    }
+
+    footer h3{
+        font-weight: 400;
+        margin-left: 40%;
+        margin-top: 10%;
+        width: 500px;
+        text-align: center;
+    }
+
+
+    footer a{
+        text-decoration: none;
+    }
+
+    footer ul{
+        padding: 0;
+    }
+
+    footer li{
+        list-style: none;
+    }
+
+    .footer-box{
+        width: 31%;
+        padding: 1%;
+        float: left; 
+    }
+
+    footer .wrapper:after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+
+    .footer-list li{
+        margin-bottom: 15px;
+        margin-left: 350px;
+        text-align: center;
+    }
+
+    .footer-list a{
+        transition: .5s;
+        text-decoration: none;
+    }
+    .footer-list a:hover{
+       color: #fecc16
+
+    }
+
+    .footer-list li:after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+
+    .footer-list2 li{
+        margin-bottom: 15px;
+        margin-left: 220px;
+        text-align: center;
+    }
+
+    .footer-list2 a{
+        transition: .5s;
+        text-decoration: none;
+    }
+    .footer-list2 a:hover{
+       color: #fecc16
+    }
+
+    .footer-list2 li:after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+
+    .fab{
+        font-size: 30px;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .footer-bottom{
+        border-top: 1px solid #B2B2B2;
+    }
+
+    .footer-bottom p{
+        font-weight: 600;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .footer-box h3{
+        text-align: center;
+    }
+
+    /* Modal */
+
+    button{
+        background-color: #fecc16;
+        width: none;
+        border-radius: 10px;
+        border-color: transparent;
+    }
+
+    button:hover{
+        color: red;
+    }
+
+    dialog::backdrop{
+        background-color: rgb(0 0 0/ .3);
+    }
+
+    dialog{
+        border: none;
+        border-radius: .5rem;
+        box-shadow: 0 0 1em rgb(0 0 0 / .3);
+        width: 30%;
+        height: 20%;
+    }
